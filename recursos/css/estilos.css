@@ -435,10 +435,10 @@ img{
 
 /*=============================================  SERVICIOS  ====================================================================*/
 
-.overlay {
+/*.overlay {
     background-color: var(--color-plata);
     padding: 0px 10px 30px 0px; 
-}
+}*/
 .textos_servicios {
     width: 100%;
     margin-top: 50px;
@@ -472,8 +472,8 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;
@@ -724,9 +724,6 @@ img{
 
 
 /*============================================ VIDEO ========================================================================*/
-:root {
-    --header-height: 3rem;
-  }
   img,
   video {
     max-width: 100%;
@@ -1102,7 +1099,7 @@ img{
 }
 .pie {
     width: 100%;
-    height: 7vh;
+    height: 6vh;
     bottom: 0;
     background-image: url(../imagenes/pie.jpg);
     background-position: right;
@@ -1322,10 +1319,10 @@ img{
 
 /*=============================================  SERVICIOS  ====================================================================*/
 
-.overlay {
+/*.overlay {
     background-color: var(--color-plata);
     padding: 0px 10px 30px 0px; 
-}
+}*/
 .textos_servicios {
     width: 100%;
     margin-top: 50px;
@@ -1360,8 +1357,8 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;
@@ -1599,7 +1596,7 @@ img{
 }
 .pie {
     width: 100%;
-    height: 7vh;
+    height: 5vh;
     bottom: 0;
     background-image: url(../imagenes/pie.jpg);
     background-position: right;
@@ -1810,10 +1807,10 @@ img{
 
 /*=============================================  SERVICIOS  ====================================================================*/
 
-.overlay {
+/*.overlay {
     background-color: var(--color-plata);
     padding: 0px 10px 30px 0px; 
-}
+}*/
 .textos_servicios {
     width: 100%;
     margin-top: 40px;
@@ -1848,8 +1845,8 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;
@@ -2087,7 +2084,7 @@ img{
 }
 .pie {
     width: 100%;
-    height: 6vh;
+    height: 5vh;
     bottom: 0;
     background-image: url(../imagenes/pie.jpg);
     background-position: right;
@@ -2095,6 +2092,10 @@ img{
     background-size: cover;
 }
 }
+
+
+
+
 
 
 
@@ -2298,10 +2299,10 @@ img{
 
 /*=============================================  SERVICIOS  ====================================================================*/
 
-.overlay {
+/*.overlay {
     background-color: var(--color-plata);
     padding: 0px 10px 30px 0px; 
-}
+}*/
 .textos_servicios {
     width: 100%;
     margin-top: 20px;
@@ -2336,8 +2337,8 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;
@@ -2583,7 +2584,7 @@ img{
 }
 .pie {
     width: 100%;
-    height: 5vh;
+    height: 4vh;
 }
 }
 
@@ -2791,10 +2792,10 @@ img{
 
 /*=============================================  SERVICIOS  ====================================================================*/
 
-.overlay {
+/*.overlay {
     background-color: var(--color-plata);
     padding: 0px 10px 30px 0px; 
-}
+}*/
 .textos_servicios {
     width: 100%;
     margin-top: 20px;
@@ -2829,8 +2830,8 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;

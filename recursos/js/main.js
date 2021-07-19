@@ -101,6 +101,7 @@ function finalVideo(){
 videoFile.addEventListener('ended', finalVideo)
 
 
+
 /*============================================  GALERIA  ================================================*/
 
 
@@ -133,20 +134,15 @@ window.onload = ()=>{ //after window loaded
 }
 
 
-
 /*========================================== SCROLL REVEAL ANIMATION =============================================*/
+
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '70px',
     duration: 2000,
     reset: true
 })
 
-
-sr.reveal('.izquierda', {origin:'right', delay: 300})
-sr.reveal('.derecha', {origin:'left', delay: 300})
-sr.reveal('.icono', {delay: 600, interval: 200})
-
-
-sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
+sr.reveal('.icono', {delay: 100, interval: 200})
+sr.reveal('.reveal', {delay: 200, interval: 300})
 
