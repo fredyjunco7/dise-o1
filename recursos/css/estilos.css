@@ -428,6 +428,7 @@ img{
 }
 .conoceme_textos .infodos {
     margin-top: 25px;
+    padding-bottom: 40px;
 }
 
 
@@ -491,7 +492,7 @@ img{
 
 @keyframes changingTxt {
 	0% {
-		content: 'Conoce los mejores productos';
+		content: 'los mejores productos';
         font-family: var(--fontfamily-titles);
 	}
 	20% {
@@ -511,7 +512,7 @@ img{
         font-family: var(--fontfamily-titles);
 	}
 	100% {
-		content: 'Te esperamos, sera un gusto atenderte !';
+		content: 'Te esperamos !';
         font-family: var(--fontfamily-titles);
 	}
 }
@@ -580,7 +581,9 @@ img{
   .swiper-container-3d .swiper-slide-shadow-right {
     background-image: none;
   }
-  
+  .discover__container {
+      padding-bottom: 40px;
+  }
   
   /*=============== MEDIA QUERIES ===============*/
   
@@ -623,6 +626,7 @@ img{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 40px;
 }
 .equipo {
     width: 60%;
@@ -771,6 +775,9 @@ img{
     font-size: 1.2rem;
     color: var(--color-h1);
   }
+  .video {
+      padding-bottom: 40px;
+  }
   
   
   /*=============== MEDIA QUERIES ===============*/
@@ -854,6 +861,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    padding-bottom: 40px;
   }
   .gallery .image{
     width: calc(100% / 4);
@@ -1011,7 +1019,7 @@ img{
         padding: 5px 10px;
     }
     .gallery .image{
-      width: 100%;
+      width: 90%;
       margin: auto;
     }
   }
