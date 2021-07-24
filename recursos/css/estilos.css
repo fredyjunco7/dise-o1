@@ -185,11 +185,12 @@ img{
         display: none;
     }
     .nav__link{
-        color: var(--white-color);
+        /*color: var(--white-color);*/
+        color: var(--color-oro);
     }
-    .nav__link:hover{
+    /*.nav__link:hover{
         color: var(--white-color);
-    }
+    }*/
     .active::after{
         background-color: var(--white-color);
     }
