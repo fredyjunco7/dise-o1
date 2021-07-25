@@ -3,7 +3,7 @@
 let container = document.getElementById("container_loader");
 setTimeout(function() {
     container.classList.add("cerrar");
-}, 7000);
+}, 6000);
 
 /*====================================== MENU SHOW ==================================================*/ 
 const showMenu = (toggleId, navId) =>{
