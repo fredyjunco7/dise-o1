@@ -75,6 +75,59 @@ img{
     display: block;
 }
 
+
+
+/*============================  LOADER  ================================*/
+
+.container_loader {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    position: fixed;
+    background-color: #dad4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    clip-path: circle(150% at 100% 0);
+}
+.container_loader img {
+    width: 50px;
+    height: 50px;
+    animation: load 1.2s linear infinite;
+}
+.container_loader p {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+.cerrar {
+    transform: translateY(-100%);
+    transition: all 1s;
+    clip-path: circle(50% at 100% -30%);
+}
+
+
+@keyframes load {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
+
+
+
 /*===== CLASS CSS ===== */
 
 .section-title::after{
@@ -252,7 +305,7 @@ img{
     position: relative;
     width: 100%;
     height: 95vh;
-    background-image: url(../imagenes/slider1.jpg);
+    background-image: url(../imagenes/slider4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -299,38 +352,38 @@ img{
 
 @keyframes banner {
     0%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
     25%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
 
     26%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
     50%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
 
     51%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
     75%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
 
     76%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
     100%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
 }
@@ -1226,38 +1279,38 @@ img{
 
 @keyframes banner {
     0%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
     25%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
 
     26%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
     50%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
 
     51%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
     75%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
 
     76%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
     100%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
 }
@@ -1744,38 +1797,38 @@ img{
 
 @keyframes banner {
     0%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
     25%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
 
     26%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
     50%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
 
     51%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
     75%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
 
     76%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
     100%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
 }
@@ -2217,6 +2270,52 @@ img{
 
 @media (max-width: 600px) {
 
+
+      /*============================  LOADER  ================================*/
+
+.container_loader {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    position: fixed;
+    background-color: #dad4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    clip-path: circle(150% at 100% 0);
+}
+.container_loader img {
+    width: 50px;
+    height: 50px;
+    animation: load 1.2s linear infinite;
+}
+.container_loader p {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+.cerrar {
+    transform: translateY(-100%);
+    transition: all 1s;
+    clip-path: circle(50% at 100% -30%);
+}
+
+
+@keyframes load {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
     /*=============================================  BANNER  ======================================================*/
 
 .banner {
@@ -2272,38 +2371,38 @@ img{
 
 @keyframes banner {
     0%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
     25%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
 
     26%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
     50%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
 
     51%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
     75%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
 
     76%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
     100%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
 }
@@ -2801,38 +2900,38 @@ img{
 
 @keyframes banner {
     0%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
     25%{
-        background-image: url(../imagenes/slider1.jpg);
+        background-image: url(../imagenes/slider4.jpg);
         object-fit: cover;
     }
 
     26%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
     50%{
-        background-image: url(../imagenes/slider2.jpg);
+        background-image: url(../imagenes/slider1.jpg);
         object-fit: cover;
     }
 
     51%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
     75%{
-        background-image: url(../imagenes/slider3.jpg);
+        background-image: url(../imagenes/slider2.jpg);
         object-fit: cover;
     }
 
     76%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
     100%{
-        background-image: url(../imagenes/slider4.jpg);
+        background-image: url(../imagenes/slider3.jpg);
         object-fit: cover;
     }
 }
