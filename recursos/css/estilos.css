@@ -86,7 +86,7 @@ img{
     left: 0;
     z-index: 99999999;
     position: fixed;
-    background-color: #dad4d4;
+    background-color: var(--color-oro);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,6 +167,8 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+    width: 90%;
 }
 @media screen and (max-width: 780px){
     .nav__menu{
@@ -2354,7 +2356,7 @@ img{
     left: 0;
     z-index: 99999999;
     position: fixed;
-    background-color: #dad4d4;
+    background-color: var(--color-oro);
     display: flex;
     align-items: center;
     justify-content: center;
