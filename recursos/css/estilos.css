@@ -96,7 +96,8 @@ img{
 .container_loader img {
     width: 50px;
     height: 50px;
-    animation: load 1.2s linear infinite;
+    object-fit: cover;
+    animation: load 1s linear infinite;
 }
 .container_loader p {
     color: black;
@@ -263,7 +264,7 @@ img{
 .scroll-header {
    /* background-color: var(--color-obscuro);*/
    background-color: white;
-    box-shadow: 0 0 4px rgba(14, 55, 63, 0.1);
+    box-shadow: 0 0 4px rgba(9, 31, 36, 0.1);
   }
 
 
@@ -1221,6 +1222,23 @@ img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*===========================================  RESPONSIVE  ==========================================================*/
 
 
@@ -1739,6 +1757,34 @@ img{
 
 
 
+/*==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================*/
+
+
+
+
 
 
 
@@ -1851,18 +1897,18 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .logo_title .line {
     display: inline;
     width: 160px;
-    height: 2px;
+    height: 1.5px;
     background-color: var(--color-oro);
 }
 .logo_title img {
     margin: 0 25px;
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
 }
 .title h3 {
     font-size: 26px;
@@ -1887,7 +1933,7 @@ img{
 
 .conoceme {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .contenedor-conoceme {
     width: 90%;
@@ -1897,11 +1943,11 @@ img{
     align-items: center;
 }
 .contenedor-conoceme img {
-    width: 50%;
+    width: 40%;
 }
 .contenedor-conoceme .conoceme_textos {
     width: 90%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .conoceme_textos .informacion {
     display: flex;
@@ -1914,13 +1960,14 @@ img{
     align-items: center;
 }
 .conoceme_textos .informacion .soy img {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
 }
 .conoceme_textos .informacion .soy .soytitle {
     margin-left: 10px;
     font-family: var(--fontfamily-titles);
-    color: var(--color-texto)
+    color: var(--color-texto);
+    font-weight: 400;
 }
 .conoceme_textos .informacion .soydescription {
     margin: 10px 0;
@@ -1961,13 +2008,14 @@ img{
     justify-content: center;
     font-family: var(--fontfamily-titles);
     color: var(--color-texto);
+    font-weight: 400;
 }
 .textos_servicios .servicios_descripcion {
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 6px 0;
+    margin: 4px 0;
     text-align: center;
 }
 .textos_servicios .servicios_descripcion p {
@@ -1976,8 +2024,8 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;
@@ -2090,7 +2138,7 @@ img{
  .testimonios__container {
     margin: auto;
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2265,6 +2313,32 @@ img{
 
 
 
+/*==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================*/
+
+
 
 
 
@@ -2288,9 +2362,10 @@ img{
     clip-path: circle(150% at 100% 0);
 }
 .container_loader img {
-    width: 50px;
-    height: 50px;
-    animation: load 1.2s linear infinite;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    animation: load 1s linear infinite;
 }
 .container_loader p {
     color: black;
@@ -2298,7 +2373,7 @@ img{
     margin-top: 30px;
     font-family: sans-serif;
     letter-spacing: .5px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .cerrar {
     transform: translateY(-100%);
@@ -2425,21 +2500,21 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 .logo_title .line {
     display: inline;
     width: 120px;
-    height: 2px;
+    height: 1px;
     background-color: var(--color-oro);
 }
 .logo_title img {
     margin: 0 25px;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 .title h3 {
-    font-size: 26px;
+    font-size: 24px;
     color: var(--color-h3);
     font-family: var(--fontfamily-titles);
     font-weight: 800;
@@ -2449,7 +2524,7 @@ img{
     color: var(--color-texto);
     font-weight: 200;
     font-family: var(--fontfamily-texto);
-    margin-top: 25px;
+    margin-top: 20px;
     text-align: center;
     width: 90%;
 }
@@ -2471,7 +2546,7 @@ img{
     align-items: center;
 }
 .contenedor-conoceme img {
-    width: 60%;
+    width: 50%;
 }
 .contenedor-conoceme .conoceme_textos {
     width: 90%;
@@ -2494,7 +2569,8 @@ img{
 .conoceme_textos .informacion .soy .soytitle {
     margin-left: 10px;
     font-family: var(--fontfamily-titles);
-    color: var(--color-texto)
+    color: var(--color-texto);
+    font-weight: 400;
 }
 .conoceme_textos .informacion .soydescription {
     margin: 10px 0;
@@ -2504,7 +2580,7 @@ img{
     width: 90%;
 }
 .conoceme_textos .infodos {
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 
@@ -2535,6 +2611,7 @@ img{
     justify-content: center;
     font-family: var(--fontfamily-titles);
     color: var(--color-texto);
+    font-weight: 400;
 }
 .textos_servicios .servicios_descripcion {
     width: 90%;
@@ -2550,14 +2627,14 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;
 }
 .discover__container {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .serv:before {
@@ -2663,13 +2740,13 @@ img{
  .testimonios__container {
     margin: auto;
     width: 100%;
-    height: 400px;
+    height: 420px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .testimonio__card {
-    height: 85%;
+    height: 90%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -2749,8 +2826,7 @@ img{
     width: 100%;
     margin: auto;
     padding-top: 40px;
-  }
-
+  } 
 
 
    /*=====================================  FOOTER  ==========================================================*/
@@ -2836,6 +2912,39 @@ img{
     height: 4vh;
 }
 }
+
+
+
+
+
+
+/*==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================
+==========================================================================================
+======================================================================================
+====================================================================================*/
+
+
+
 
 
 
@@ -2954,18 +3063,18 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 .logo_title .line {
     display: inline;
     width: 75px;
-    height: 2px;
+    height: 1px;
     background-color: var(--color-oro);
 }
 .logo_title img {
     margin: 0 15px;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
 }
 .title h3 {
     font-size: 23px;
@@ -2978,7 +3087,7 @@ img{
     color: var(--color-texto);
     font-weight: 200;
     font-family: var(--fontfamily-texto);
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     width: 90%;
 }
@@ -2990,7 +3099,7 @@ img{
 
 .conoceme {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .contenedor-conoceme {
     width: 90%;
@@ -3000,11 +3109,11 @@ img{
     align-items: center;
 }
 .contenedor-conoceme img {
-    width: 70%;
+    width: 60%;
 }
 .contenedor-conoceme .conoceme_textos {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .conoceme_textos .informacion {
     display: flex;
@@ -3017,13 +3126,14 @@ img{
     align-items: center;
 }
 .conoceme_textos .informacion .soy img {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
 .conoceme_textos .informacion .soy .soytitle {
     margin-left: 10px;
     font-family: var(--fontfamily-titles);
-    color: var(--color-texto)
+    color: var(--color-texto);
+    font-weight: 400; 
 }
 .conoceme_textos .informacion .soydescription {
     margin: 10px 0;
@@ -3033,7 +3143,7 @@ img{
     width: 95%;
 }
 .conoceme_textos .infodos {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 
@@ -3064,6 +3174,7 @@ img{
     justify-content: center;
     font-family: var(--fontfamily-titles);
     color: var(--color-texto);
+    font-weight: 400;
 }
 .textos_servicios .servicios_descripcion {
     width: 90%;
@@ -3078,15 +3189,15 @@ img{
     font-weight: 300;
 }
 .textos_servicios .servicios_descripcion img {
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
 }
 .textos_servicios .servicios_descripcion p {
     margin-left: 20px;
 }
 
 .discover__container {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .serv:before {
@@ -3131,7 +3242,7 @@ img{
 
 .nosotros {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .nosotros_contenido {
     width: 100%;
@@ -3199,7 +3310,7 @@ img{
 }
 .testimonio__card {
     height: 85%;
-    padding-top: 30px;
+    padding-top: 10px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -3207,7 +3318,7 @@ img{
     flex-direction: column;
 }
 .testimonio__card .recomendacion {
-    width: 80%;
+    width: 85%;
     text-align: center;
     letter-spacing: .5px;
     line-height: 22px;
@@ -3243,7 +3354,7 @@ img{
 
 .parallax {
     width: 100%;
-    height: 280px;
+    height: 310px;
     background-image: url(../imagenes/slider1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -3260,14 +3371,14 @@ img{
     justify-content: center;
 }
 .textos_parallax h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: var(--fontfamily-titles);
     font-weight: 600;
     color: var(--color-oro);
     z-index: 2;
 }
 .textos_parallax em {
-    font-size: 45px;
+    font-size: 50px;
     font-family: cursive;
 }
 .textos_parallax span {
@@ -3281,11 +3392,13 @@ img{
     padding-bottom: 1rem;
     width: 100%;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 55px;
   }
 
 
-
+  .galery_continer {
+      margin-bottom: -25px;
+  }
    /*=====================================  FOOTER  ==========================================================*/
 
    .footer {
